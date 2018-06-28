@@ -1,0 +1,3 @@
+#!/bin/sh -i
+bundle
+bundle exec foreman start -f Procfile.dev
