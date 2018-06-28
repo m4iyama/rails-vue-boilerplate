@@ -1,17 +1,22 @@
 <template>
     <div>
-        <p>HELLO WORLD</p>
+        <counter />
     </div>
 </template>
 
 <script>
-export default {
-  data: function () {
-    return {
-      message: "Hello Vue!"
+    import Counter from './components/counter.vue';
+
+    export default {
+        data: function () {
+            return {
+                message: "Hello Vue!"
+            }
+        },
+        components: {
+            Counter,
+        }
     }
-  }
-}
 </script>
 
 <style scoped>
