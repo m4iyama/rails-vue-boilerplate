@@ -1,6 +1,15 @@
 <template>
     <div>
-        <counter />
+        <ul>
+            <li>
+                <router-link to="/">Home</router-link>
+            </li>
+            <li>
+                <router-link to="/counter">Counter</router-link>
+            </li>
+        </ul>
+        <hr>
+        <router-view></router-view>
     </div>
 </template>
 
